@@ -77,13 +77,27 @@ body {
   margin-bottom: 5px;
 }
 
-.botonNav {
-  position: absolute;
-  top: 20px;
-  right: 20px;
+.botonFormulario {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  background: #dd610f;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.botonFormulario img {
   width: 32px;
   height: 32px;
-  cursor: pointer;
+}
+
+.botonFormulario:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 3px;
 }
 
 .zonaImagen {

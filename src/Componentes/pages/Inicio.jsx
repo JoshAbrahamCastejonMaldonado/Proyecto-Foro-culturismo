@@ -1,5 +1,5 @@
 import Tar from './Tar'
-import Boton from '../Formularios/Boton'
+import Boton from '../Tarjetas/Boton'
 import '../Styles/Tarjeta.css'
 
 export default function Inicio({tarjeta}){

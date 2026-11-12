@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import useTarjetas from '../Hook/useTarjeta'
 import Inicio from './Inicio'
 import Tar from './Tar'
-import FormularioPage from './formularioPage'
+import FormularioPage from './FormularioPage'
 
 export default function App(){
     const {tarjeta, agregar} = useTarjetas()

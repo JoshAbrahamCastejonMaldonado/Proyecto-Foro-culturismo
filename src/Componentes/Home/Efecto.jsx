@@ -23,6 +23,15 @@ export default function Efecto({
         let timeoutId
         let cancelado = false
 
+        const finalizar = () => {
+            if (!cancelado) onFinRef.current?.()
+        }
+
+        if (!ctx) {
+            finalizar()
+            return
+        }
+
         const animar = (particulas) => {
             const inicio = performance.now()
             const total = 1.3 
@@ -58,7 +67,13 @@ export default function Efecto({
             canvas.height = Math.round(img.naturalHeight * escala)
             ctx.drawImage(img, 0, 0, canvas.width, canvas.height)
 
-            const { data } = ctx.getImageData(0, 0, canvas.width, canvas.height)
+            let data
+            try {
+                data = ctx.getImageData(0, 0, canvas.width, canvas.height).data
+            } catch {
+                finalizar()
+                return
+            }
             const particulas = []
             for (let y = 0; y < canvas.height; y += paso) {
                 for (let x = 0; x < canvas.width; x += paso) {
@@ -76,6 +91,8 @@ export default function Efecto({
             }
             timeoutId = setTimeout(() => animar(particulas), retraso)
         }
+        img.onerror = finalizar
+        img.crossOrigin = 'anonymous'
         img.src = src
 
         return () => {

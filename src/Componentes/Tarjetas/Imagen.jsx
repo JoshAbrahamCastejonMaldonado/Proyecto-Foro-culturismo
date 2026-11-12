@@ -1,25 +1,5 @@
-const imagenes = import.meta.glob(
-    '../../assets/*',
-    {
-        eager: true,
-        query: '?url',
-        import: 'default'
-    }
-)
+import resolverImagen from './resolverImagen'
 
-export default function Imagen({img}){
-
-    const nombreArchivo = img?.split('/').pop()
-
-    const rutaImagen = Object.entries(imagenes).find(
-        ([ruta]) => ruta.endsWith('/' + nombreArchivo)
-    )?.[1]
-
-    return(
-        <img
-            className='imagen'
-            src={rutaImagen || img}
-            alt=""
-        />
-    )
+export default function Imagen({img, nombre}){
+    return <img className="imagen" src={resolverImagen(img)} alt={nombre || ''}/>
 }

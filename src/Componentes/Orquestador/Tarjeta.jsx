@@ -5,6 +5,7 @@ import Imagen from '../Tarjetas/Imagen'
 import Descripcion from '../Tarjetas/Descripcion'
 import Logros from '../Tarjetas/logros'
 import Rutina from '../Tarjetas/Rutina'
+import resolverImagen from '../Tarjetas/resolverImagen'
 import Efecto from '../Home/Efecto'
 
 export default function Tarjeta({nombre, img, pais, categoria, logros, descripcion, rutina}){
@@ -20,10 +21,10 @@ export default function Tarjeta({nombre, img, pais, categoria, logros, descripci
     return(
         <div className='CentraC'>
             <div className='zonaImagen' onClick={abrir}>
-                {estado === 'normal' && <Imagen img={img}/>}
+                {estado === 'normal' && <Imagen img={img} nombre={nombre}/>}
                 {estado === 'efecto' && (
                     <Efecto
-                        src={img}
+                        src={resolverImagen(img)}
                         retraso={150}
                         duracion={2500}
                         onFin={() => setEstado('rutina')}

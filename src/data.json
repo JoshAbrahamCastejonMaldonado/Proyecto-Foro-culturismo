@@ -1,0 +1,267 @@
+[
+    {
+        "Id": 1,
+        "Nombre":"Ronnie Coleman",
+        "imagen": "/src/assets/ronnie_1.jpg",
+        "pais": "Estados Unidos",
+        "categoria": "Bodybuilding clasico",
+        "logros": 
+        [
+            "8 veces campeon de forma consecutiva del Mr. Olimpia (1998-2005)",
+            "tiene el record historico de titulos consecutivos",
+            "Referente de la fuerza bruta en el culturismo"
+        ],
+        "descripcion": "Considerado uno de los culturistas mas grandes de la historia, siendo conocido por su fuerza fenemenal (cargando una tonelada en prensa) y su iconica frase 'YEAH BUDDY, LIGHT WEIGHT!!'." ,
+        "rutina": {
+                "estilo": "6 días a la semana, cada músculo 2 veces. Mucho peso y volumen alto (3-4 series de 8-15 reps).",
+                "dias": [
+                    { "dia": "Lun y Jue", "enfoque": "Espalda, bíceps y hombros", "ejercicios": ["Peso muerto con barra", "Remo con barra", "Jalón al pecho", "Curl con barra", "Press militar"] },
+                    { "dia": "Mar y Vie", "enfoque": "Piernas", "ejercicios": ["Sentadilla", "Prensa de piernas", "Extensión de cuádriceps", "Curl femoral", "Elevación de gemelos"] },
+                    { "dia": "Mié y Sáb", "enfoque": "Pecho y tríceps", "ejercicios": ["Press de banca con barra", "Press inclinado con mancuernas", "Aperturas", "Fondos", "Extensiones de tríceps"] },
+                    { "dia": "Dom", "enfoque": "Descanso", "ejercicios": ["Recuperación total"] }
+  ]
+}
+    },
+
+    {
+        "Id": 2,
+        "Nombre":"Arnold Schwarzenegger",
+        "imagen": "/src/assets/Arnold_2.jpg",
+        "pais": "Austria",
+        "categoria": "Bodybuilding clasico",
+        "logros": 
+        [
+            "7 veces campeon del Mr Olimpia",
+            "El hombre que popularizo el culturismo a nivel mundial",
+            "Fundo la segunda mayor competicion del culturismo el Arnold Classic "
+        ],
+        "descripcion": "Pionero que llevó el fisicoculturismo del gimnasio al mainstream, convirtiéndose después en actor y figura pública global.",
+        "rutina": {
+                "estilo": "6 días, cada grupo 2 veces. Volumen muy alto: 4-5 ejercicios por músculo, unas 5 series de 10 reps.",
+                "dias": [
+                    { "dia": "Lun y Jue", "enfoque": "Pecho y espalda", "ejercicios": ["Press de banca 5x10", "Press inclinado", "Aperturas", "Dominadas", "Remo en T", "Peso muerto"] },
+                    { "dia": "Mar y Vie", "enfoque": "Hombros y brazos", "ejercicios": ["Press militar", "Elevaciones laterales", "Curl con barra", "Curl inclinado con mancuernas", "Press cerrado", "Extensiones de tríceps"] },
+                    { "dia": "Mié y Sáb", "enfoque": "Piernas", "ejercicios": ["Sentadilla", "Prensa", "Extensión de cuádriceps", "Curl femoral", "Gemelos"] },
+                    { "dia": "Dom", "enfoque": "Descanso", "ejercicios": ["Recuperación total"] }
+  ]
+}
+  },
+    
+  {
+        "Id": 3,
+        "Nombre":"Mike Mentzer",
+        "imagen": "/src/assets/Mike_3.png",
+        "pais": "Estados Unidos",
+        "categoria": "Bodybuilding clasico",
+        "logros": 
+        [
+            "Mr. Universe en 1979 con la puntuación perfecta",
+            "Creador del método de entrenamiento Heavy Duty",
+            "2do lugar en el polemico Mr. Olimpia de 1980 "
+        ],
+        "descripcion": "Filósofo del culturismo, defendió el entrenamiento de bajo volumen y alta intensidad frente al 'más es mejor' de su época.",
+        "rutina": {
+                "estilo": "Heavy Duty: poquísimo volumen. 1-2 series al fallo (6-10 reps) y descansos largos entre sesiones.",
+                "dias": [
+                    { "dia": "Sesión A", "enfoque": "Piernas, pecho y tríceps", "ejercicios": ["Curl femoral: 2 series", "Gemelos de pie: 2 series", "Press inclinado: 2 series", "Fondos: 2 series", "Extensión de tríceps acostado: 2 series"] },
+                    { "dia": "Sesión B", "enfoque": "Espalda, hombros y bíceps", "ejercicios": ["Remo con barra: 2 series", "Elevaciones posteriores con mancuernas: 2 series", "Curl concentrado: 2 series"] },
+                    { "dia": "Descanso", "enfoque": "Entre sesiones", "ejercicios": ["Varios días libres: un músculo no se vuelve a entrenar antes de 4-7 días"] }
+  ]
+}
+
+  },
+  {
+  
+        "Id": 4,
+        "Nombre":"Kevin Levrone",
+        "imagen": "/src/assets/Kevin_4.jpg",
+        "pais": "Estados Unidos",
+        "categoria": "Bodybuilding clasico",
+        "logros": 
+        [
+            "Varias veces subcampeón del Mr. Olympia en los 90s",
+            "Conocido como 'The Dream'",
+            "Uno de los físicos más completos de su generación"
+        ],
+        "descripcion": "Nunca ganó el Olympia pero es recordado como uno de los mejores físicos de la historia por su simetría y densidad muscular.",
+        "rutina": {
+            "estilo": "Básicos muy pesados (6-8 reps) más series altas de 12-15. 6 días a la semana, cada músculo unas 2 veces.",
+                "dias": [
+                    { "dia": "Lun y Vie", "enfoque": "Pecho, hombros y tríceps", "ejercicios": ["Press de banca plano 4x6-8", "Press inclinado con barra 4x6-8", "Press en máquina 4x12-15", "Cruces en polea 4x12-15", "Press con mancuernas 4x6-8", "Elevaciones laterales 4x12-15", "Encogimientos 4x12-15", "Press cerrado 4x6-8"] },
+                    { "dia": "Otros días", "enfoque": "Espalda", "ejercicios": ["Dominadas con peso", "Remos pesados", "Jalón al pecho con recorrido completo"] },
+                    { "dia": "Otros días", "enfoque": "Piernas", "ejercicios": ["Sentadilla pesada", "Prensa de piernas", "Técnica perfecta en cada repetición"] }
+  ]
+}
+  },
+
+  {
+        "Id": 5,
+        "Nombre":"Dorian Yates",
+        "imagen": "/src/assets/Dorian_6.jpg",
+        "pais": "Reino Unido",
+        "categoria": "Bodybuilding clasico",
+        "logros":
+        [
+            "6 veces campeón del Mr. Olympia (1992-1997)",
+            "Introdujo el estilo de físico 'masivo y condicionado'",
+            "Apodado 'The Shadow'"
+        ],
+        "descripcion": "Cambió el estándar del culturismo hacia físicos más grandes y densos, entrenando con alta intensidad y bajo volumen.",
+        "rutina": {
+        "estilo": "Alta intensidad, poco volumen: pocas series efectivas al fallo (6-12 reps) tras calentar. Unos 4 días por semana.",
+            "dias": [
+                { "dia": "Sesión 1", "enfoque": "Pecho y tríceps", "ejercicios": ["Press inclinado con mancuernas", "Fondos con peso", "Press cerrado"] },
+                { "dia": "Sesión 2", "enfoque": "Espalda y bíceps", "ejercicios": ["Remo con barra", "Dominadas", "Peso muerto", "Curl con barra"] },
+                { "dia": "Sesión 3", "enfoque": "Piernas", "ejercicios": ["Hack squat o prensa", "Curl femoral", "Gemelos"] },
+                { "dia": "Sesión 4", "enfoque": "Hombros", "ejercicios": ["Press de hombros", "Elevaciones laterales", "Elevaciones posteriores"] }
+  ]
+}
+
+  },
+
+  {
+        "Id": 6,
+        "Nombre":"Chris Bumstead",
+        "imagen": "/src/assets/CBUM.jpg",
+        "pais": "Canadá",
+        "categoria": "Classic Physique",
+        "logros":
+        [
+            "6 veces campeón Mr. Olympia Classic Physique",
+            "Referente actual de la categoría estética",
+            "Gran influencia en redes sociales"
+        ],
+        "descripcion": "Dominó la categoría Classic Physique combinando estética, simetría y una presencia muy fuerte en redes sociales.",
+        "rutina": {
+        "estilo": "Estilo push / pull / legs: 3 días de entreno y 1 de descanso. Volumen moderado-alto, recorrido completo, superseries y dropsets.",
+            "dias": [
+                { "dia": "Push", "enfoque": "Pecho, hombros y tríceps", "ejercicios": ["Press inclinado con mancuernas", "Elevaciones laterales 4x10-12 + flexiones al fallo (superserie)"] },
+                { "dia": "Pull", "enfoque": "Espalda y bíceps", "ejercicios": ["Jalón al pecho 3x8-10 + dropset", "Dominadas: 3 series al fallo", "Remo agarre inverso 3x10-12"] },
+                { "dia": "Legs", "enfoque": "Piernas", "ejercicios": ["Sentadilla búlgara 3x10-12", "Prensa", "Curl femoral"] },
+                { "dia": "Descanso", "enfoque": "1 día libre", "ejercicios": ["Después se repite el ciclo"] }
+  ]
+}
+  },
+
+  {
+        "Id": 7,
+        "Nombre":"Frank Zane",
+        "imagen": "/src/assets/Frank_7.png",
+        "pais": "Estados Unidos",
+        "categoria": "Bodybuilding clasico",
+        "logros":
+        [
+            "3 veces campeón del Mr. Olympia (1977-1979)",
+            "Conocido por su estética y simetría",
+            "Apodado 'The Chemist' por su enfoque científico"
+        ],
+        "descripcion": "Famoso por su físico estético y proporcionado, Zane es un ícono del culturismo clásico que priorizó la forma sobre el tamaño.",
+        "rutina": {
+            "estilo": "Rutina de 5 días a la semana, enfocándose en la simetría y la definición. Series moderadas (3-4) con repeticiones de 8-12.",
+                "dias": [
+                    { "dia": "Lun", "enfoque": "Pecho y tríceps", "ejercicios": ["Press de banca plano", "Press inclinado con mancuernas", "Fondos", "Extensiones de tríceps"] },
+                    { "dia": "Mar", "enfoque": "Espalda y bíceps", "ejercicios": ["Remo con barra", "Jalón al pecho", "Curl con barra", "Curl inclinado con mancuernas"] },
+                    { "dia": "Mié", "enfoque": "Piernas", "ejercicios": ["Sentadilla", "Prensa de piernas", "Extensión de cuádriceps", "Curl femoral"] },
+                    { "dia": "Jue", "enfoque": "Hombros y abdominales", "ejercicios": ["Press militar con mancuernas", "Elevaciones laterales", "Encogimientos de hombros", "Crunches"] },
+                    { "dia": "Vie", "enfoque": "Circuito completo y definición", "ejercicios": ["Circuito de ejercicios compuestos para todo el cuerpo"] }
+                ]
+            }
+        },
+
+  {
+        "Id": 8,
+        "Nombre": "Jay Cutler",
+        "imagen": "/src/assets/Jay_8.png",
+        "pais": "Estados Unidos",
+        "categoria": "Bodybuilding clasico",
+        "logros":
+        [
+            "4 veces campeón del Mr. Olympia (2006, 2007, 2009, 2010)",
+            "Conocido por su ética de trabajo y consistencia",
+            "Competidor feroz en la era moderna del culturismo"
+        ],
+        "descripcion": "Jay Cutler es reconocido por su dedicación y consistencia, logrando múltiples títulos de Mr. Olympia y dejando una marca en la era moderna del culturismo.",
+        "rutina": {
+            "estilo": "Rutina de 5-6 días a la semana, combinando entrenamiento pesado y volumen moderado. Series de 4-5 con repeticiones de 8-12.",
+                "dias": [
+                    { "dia": "Lun", "enfoque": "Pecho y tríceps", "ejercicios": ["Press de banca plano", "Press inclinado con mancuernas", "Fondos", "Extensiones de tríceps"] },
+                    { "dia": "Mar", "enfoque": "Espalda y bíceps", "ejercicios": ["Remo con barra", "Jalón al pecho", "Curl con barra", "Curl inclinado con mancuernas"] },
+                    { "dia": "Mié", "enfoque": "Piernas", "ejercicios": ["Sentadilla", "Prensa de piernas", "Extensión de cuádriceps", "Curl femoral"] },
+                    { "dia": "Jue", "enfoque": "Hombros y abdominales", "ejercicios": ["Press militar con mancuernas", "Elevaciones laterales", "Encogimientos de hombros", "Crunches"] },
+                    { "dia": "Vie", "enfoque": "Circuito completo y definición", "ejercicios": ["Circuito de ejercicios compuestos para todo el cuerpo"] }
+                ]
+            }
+  },
+
+  {
+        "Id": 9,
+        "Nombre": "Phil Heath",
+        "imagen": "/src/assets/Phil_9.jpg",
+        "pais": "Estados Unidos",
+        "categoria": "Bodybuilding clasico",
+        "logros":
+        [
+            "7 veces campeón del Mr. Olympia (2011-2017)",
+            "Apodado 'The Gift' por su físico completo",
+            "Conocido por su simetría y densidad muscular"
+        ],
+        "descripcion": "Phil Heath es conocido por su físico completo y simetría, logrando siete títulos de Mr. Olympia y estableciendo un nuevo estándar en el culturismo clásico.",
+        "rutina": {
+            "estilo": "Rutina de 5-6 días a la semana, enfocándose en la simetría y densidad. Series de 4-5 con repeticiones de 8-12.",
+                "dias": [
+                    { "dia": "Lun", "enfoque": "Pecho y tríceps", "ejercicios": ["Press de banca plano", "Press inclinado con mancuernas", "Fondos", "Extensiones de tríceps"] },
+                    { "dia": "Mar", "enfoque": "Espalda y bíceps", "ejercicios": ["Remo con barra", "Jalón al pecho", "Curl con barra", "Curl inclinado con mancuernas"] },
+                    { "dia": "Mié", "enfoque": "Piernas", "ejercicios": ["Sentadilla", "Prensa de piernas", "Extensión de cuádriceps", "Curl femoral"] },
+                    { "dia": "Jue", "enfoque": "Hombros y abdominales", "ejercicios": ["Press militar con mancuernas", "Elevaciones laterales", "Encogimientos de hombros", "Crunches"] },
+                    { "dia": "Vie", "enfoque": "Circuito completo y definición", "ejercicios": ["Circuito de ejercicios compuestos para todo el cuerpo"] }
+                ]
+            }
+  },
+
+  {
+        "Id": 10,
+        "Nombre": "Kai Greene",
+        "imagen": "/src/assets/Kai_10.jpg",
+        "pais": "Estados Unidos",
+        "categoria": "Bodybuilding clasico",
+        "logros":
+        [
+            "Subcampeón del Mr. Olympia en varias ocasiones",
+            "Conocido por su creatividad y expresión artística en el escenario",
+            "Figura influyente en la cultura del fitness y el arte corporal"
+        ],
+        "descripcion": "Kai Greene es reconocido por su creatividad y expresión artística en el escenario, dejando una marca significativa en la cultura del fitness y el arte corporal."
+  },
+
+  {
+        "Id": 11,
+        "Nombre": "Tom Platz",
+        "imagen": "/src/assets/Tom_11.png",
+        "pais": "Estados Unidos",
+        "categoria": "Bodybuilding clasico",
+        "logros":
+        [
+            "Conocido como 'The Golden Eagle' por sus piernas masivas",
+            "Figura icónica en la era dorada del culturismo",
+            "Inspiración para generaciones de culturistas"
+        ],
+        "descripcion": "Tom Platz es conocido como 'The Golden Eagle' por sus piernas masivas y es una figura icónica en la era dorada del culturismo, inspirando a generaciones de culturistas."
+  },
+
+  {
+        "Id": 12,
+        "Nombre": "Lee priest",
+        "imagen": "/src/assets/Lee_12.jpg",
+        "pais": "Australia",
+        "categoria": "Bodybuilding clasico",
+        "logros":
+        [
+            "Competidor destacado en la IFBB",
+            "Conocido por su físico estético y simétrico",
+            "Figura influyente en la comunidad del culturismo"
+        ],
+        "descripcion": "Lee priest es un competidor destacado en la IFBB, conocido por su físico estético y simétrico, y es una figura influyente en la comunidad del culturismo."
+
+  }
+
+]

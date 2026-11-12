@@ -1,0 +1,74 @@
+.paginaFormulario {
+  padding: 30px;
+  color: white;
+}
+
+.paginaFormulario a {
+  color: #c9962c;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.formulario {
+  background-color: #2a2a2a;
+  padding: 25px;
+  border-radius: 8px;
+  width: 350px;
+  margin: 30px auto;
+  box-sizing: border-box;
+}
+
+.tituloForm {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.etiqueta {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: gray;
+}
+
+.entrada {
+  padding: 8px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #1a1a1a;
+  color: white;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.botones {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.botonEnviar {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(221, 97, 15);
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.botonReset {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}

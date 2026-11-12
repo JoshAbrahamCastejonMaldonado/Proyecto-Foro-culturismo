@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background-color: #1a1a1a;
+  color: white;
+  font-family: sans-serif;
+}
+
+.pagina {
+  padding: 30px;
+}
+
+.encabezado {
+  margin-bottom: 30px;
+}
+
+.encabezado h1 {
+  font-size: 32px;
+  font-family: Georgia, 'Times New Roman', serif;
+  letter-spacing: 1px;
+}
+
+.encabezado p {
+  color: gray;
+}
+
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

@@ -72,3 +72,26 @@
   font-size: 14px;
   cursor: pointer;
 }
+
+/* Tamaño independiente de los estilos del catálogo. */
+.paginaFormulario .botonNav {
+  display: block;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  transform: rotate(180deg);
+}
+
+.paginaFormulario > a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 6px;
+}
+
+.paginaFormulario > a:focus-visible {
+  outline: 2px solid #c9962c;
+  outline-offset: 3px;
+}

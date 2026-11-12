@@ -1,4 +1,4 @@
-export default function Campos({label, type, name, value, onChange}){
+export default function Campos({label, type, name, value, onChange, required = false, placeholder, pattern, title}){
     return(
         <div className='campo'>
             <label className='etiqueta'>{label}</label>
@@ -8,6 +8,10 @@ export default function Campos({label, type, name, value, onChange}){
                 name={name}
                 value={value}
                 onChange={onChange}
+                required={required}
+                placeholder={placeholder}
+                pattern={pattern}
+                title={title}
             />
         </div>
     )
